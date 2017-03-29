@@ -38,3 +38,16 @@ locales:
     share: "Partager sur"
   fr_FR:
     <<: *DEFAULT_FR      # use French translation for fr_FR
+
+  # Danish translation
+  # -------------------
+  da: &DEFAULT_DA
+    <<: *DEFAULT_EN     # load English values as default
+    overview: "Overblik"
+    toc: "Indhold"
+    written_by: "Skrevet af"
+    updated: "Opdateret"
+    share: "Del på"
+  fr_FR:
+    <<: *DEFAULT_DA      # use Danish translation for da_DA
+
