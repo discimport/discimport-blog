@@ -1,8 +1,8 @@
 # Site wide configuration
 
-title: "Discimport.dk Blog"
-description: "Dette er Discimport.dks blog"
-logo: # 120x120 px default image used for Twitter summary card
+title: "Blog Discimport.dk - tanker om golfdisc, frisbee, ultimate, discgolf og frisbeegolf"
+description: "Tanker om frisbees, golfdisc og udstyr til discgolf og ultimate. Mere om frisbeegolf og ultimatefrisbee."
+logo: https://discimport.dk/cache/541802/fit-350x100x75.jpg # 120x120 px default image used for Twitter summary card
 teaser: # 400x250 px default teaser image used in image archive grid
 locale: da
 url:
@@ -32,7 +32,7 @@ owner:
   google:
     ad-client:
     ad-slot:
-  bio: Discimport.dk sælger discs til discgolf og frisbees til ultimate og sport.
+  bio: Discimport.dk leverer online salg af frisbee, golfdisc og udstyr til discgolf og ultimate. Danmarks største udvalg til frisbeegolf og ultimatefrisbee.
   avatar: bio-photo.jpg # 160x160 px image for author byline
   disqus-shortname:
 
