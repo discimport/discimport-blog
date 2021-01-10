@@ -16,5 +16,13 @@
     "grunt-imgcompress": "~0.1.1",
     "grunt-newer": "^0.7.0",
     "grunt-surround": "^0.1.0"
+  },
+  "scripts": {
+    "test": "mocha src/test/*.*",
+    "start": "bundle exec jekyll server --port 8080 --incremental",
+    "draft": "bundle exec jekyll server --port 8080 --incremental --drafts",
+    "watch": "watchify src/js/app.bundle.js -o assets/js/bundle.js",
+    "build": "browserify src/js/app.bundle.js -g uglifyify -o assets/js/bundle.js",
+    "add-banner": "node banner.js"
   }
 }
